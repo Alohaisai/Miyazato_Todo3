@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background: #69b7ce;
+  color: white;
+  font-size: 30px;
+}
+
+.box {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#task {
+  height: 50px;
+  width: 80%;
+  color: #0d4252;
+  font-size: 20px;
+  text-indent: 18px;
+  background: #ffffff;
+  border-radius: 25px;
+  border: 1px solid rgb(68, 68, 68);
+  font-size: 20px;
+  transition: .3s;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#task:hover {
+  border: 3px solid #0d4252;
+  cursor: pointer;
+}
+
+#add {
+  height: 50px;
+  width: 20%;
+  border-radius: 25px;
+  background: #0d4252;
+  color: white;
+  border: 1px solid #0d4252;
+  margin-left: 5px;
+  font-size: 20px;
+  padding: 5px;
+  transition: .3s;
+}
+
+#add:hover {
+  background:#69b7ce;
+  cursor: pointer;
+  border: 1px solid #69b7ce;
+}
+
+#list li {
+  width: 80%;
+  height: 60px;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+#list button {
+  height: 80%;
+  width: 20%;
+  border-radius: 25px;
+  background: rgb(189, 14, 14);
+  color: white;
+  border: none;
+  font-size: 20px;
+  transition: .3s;
+}
+
+#list button:hover {
+  cursor: pointer;
+  background: rgb(255, 82, 82);
+}
